@@ -1,0 +1,59 @@
+.statusContainer{
+    width: 40%;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.statusTable{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1px 0;
+    font-size: 1em;
+    text-align: left;
+}
+.statusTable thead tr {
+    background-color: #cccaca;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.statusTable th,
+.statusTable td {
+    padding: 5px 15px;
+    border: 1px solid #dddddd;
+}
+
+.statusTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.playing {
+    background-color: green;
+    color: white;
+}
+
+.notPlaying {
+    background-color: red;
+    color: white;
+}
+
+.undecided {
+    background-color: yellow;
+    color: black;
+}

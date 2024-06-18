@@ -1,0 +1,52 @@
+.tablecontainer {
+    width: 40%;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.playertable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1px 0;
+    font-size: 1em;
+    text-align: left;
+}
+
+.playertable thead tr {
+    background-color: #cccaca;
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.playertable th,
+.playertable td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.playerable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.playertable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.playertable tbody tr:last-of-type {
+    border-bottom: 2px solid #929393;
+}
+
+.playertable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.button{
+    padding: 0px 10px 0px 10px;
+    background-color: rgba(182, 10, 10, 0.825);
+    color : white;
+}
+.button:hover{
+    background-color: rgba(220, 12, 12, 0.825);
+}
